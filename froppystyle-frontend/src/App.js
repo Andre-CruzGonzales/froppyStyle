@@ -22,7 +22,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      {categoria.map((categoria) => (
+      {categorias.map((categoria) => (
         <Categoria categoria={categoria.nombre} imagen={categoria.url} />
       ))}
     </div>
