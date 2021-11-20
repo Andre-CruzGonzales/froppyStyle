@@ -1,5 +1,5 @@
 import "./App.css";
-import { Categoria } from "./Components/Categoria/Categoria";
+import { Categoria } from "./Components/Categoria/Components/Categoria";
 import NavBar from "./Components/Menu/NavBar2";
 const categorias = [
   {
@@ -23,7 +23,9 @@ function App() {
     <div>
       <NavBar />
       {categorias.map((categoria) => (
-        <Categoria categoria={categoria.nombre} imagen={categoria.url} />
+        <Categoria categoria={categoria.nombre} url={categoria.url}>
+          asjdlkasjdlksajdljasldasjl
+        </Categoria>
       ))}
     </div>
   );

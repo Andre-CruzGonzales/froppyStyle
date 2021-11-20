@@ -1,0 +1,9 @@
+.categoria {
+  height: 100px;
+  width: 200px;
+  background-color: blue;
+ 
+}
+h1{
+  display:flex;
+}
